@@ -1,0 +1,103 @@
+/*****
+print 
+ericadreisbach.com
+Erica Dreisbach
+in case you wantedddd to preent!!!1
+[why]
+*****/
+
+html {
+	color: #000;	
+}
+
+body.home {
+	background: none;	
+}
+
+a { 
+	color: #000 !important;	
+	text-decoration: none;
+}
+
+.slide {
+	min-height: 0 !important;	
+}
+
+#holiday, #name, #about, #work, #map, #testimonials, #contact {
+	min-height: 0 !important;
+	height: auto !important;	
+	background: none;
+	color: #000;
+	text-align: left;
+}
+
+#us-map {
+	width: 50%;
+}	
+
+#nav {
+	background: #fff;	
+	position: static;
+	box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+#nav li a.home span.white,	
+#nav li a.home span.orangered {
+	color: #000
+}
+
+.table.padded-cell {
+	margin: 0;	
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.text { 
+	background: none;
+	border: 0;	
+	padding: 0;
+}
+
+.float-right, .float-left {
+	float: none;	
+}
+
+.home .info {
+	width: auto;	
+}
+.home .workbox {
+	width: auto;	
+}
+
+.quote {
+	opacity: 1 !important;
+	clear: both;
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+	position: static;	
+}
+
+.quote p.large {
+	font-size: 1em;	
+}
+
+#testimonials-nav {
+	display: none;	
+}
+
+#contact .text, #contact .medium {
+	text-shadow: none;	
+}
+
+#form-wrapper {
+	display: none;	
+}
+
+footer.nearblack {
+	background: none;
+	color: #000;	
+	text-shadow: none;
+}
+

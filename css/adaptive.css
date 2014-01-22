@@ -1,0 +1,210 @@
+/*****
+adaptive styles
+ericadreisbach.com
+Erica Dreisbach
+adaptive/mobile CSS styling
+title as a kite.
+*****/
+
+@media screen and (max-width: 940px) {
+	body.htmlemail {
+		overflow-x: scroll;
+		min-width: 800px;
+	}
+	
+	.email-nav {
+		position: absolute;	
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	html {
+		font-size: 2em;	
+	}	
+	
+	.project .info {
+		margin-top: 2em;	
+	}
+
+	#testimonials {
+		padding-bottom: 17em !important;
+	}	
+	
+	#chicago, #chicago:hover { width: 9%; }
+	#portland, #portland:hover, #boston, #boston:hover { width: 7%; } 
+	#sf, #sf:hover, #wilmington, #wilmington:hover { width: 6%; } 
+	#nyc, #nyc:hover, #vermont, #vermont:hover, #florida, #florida:hover, #nyc, #nyc:hover { width: 5%; }
+	
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	#name .table-cell {
+		padding-top: 12em;	
+	}
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	#name .table-cell {
+		padding-top: 4em;	
+	}
+}
+
+
+
+/* mobile landscape uses auto height for slides with height = windowh
+    overrules jQuery on index.php  */
+@media screen and (max-device-width: 480px) and (orientation: landscape), (-webkit-min-device-pixel-ratio: 2) and orientation: landscape {
+	#holiday, #about {
+		height: auto !important;	
+	} 	
+}  
+
+
+@media screen and (max-width: 728px), (-webkit-min-device-pixel-ratio: 2) {
+	/* the major jump */
+	.large {
+		font-size: 3em;	
+	}
+	
+	.text.float-right, .text.float-left {
+		width: 85%;
+		margin-right: auto;
+		margin-left: auto;
+		float: none;
+	}
+	
+	.text.info ul li {
+		float: left;
+		margin-right: 1.5em;
+	}
+	
+	.workbox {
+		margin-top: 1em;	
+	}
+	
+	.workbox a {
+		width: 21%;
+		margin: 1% 2%;	
+	}
+	
+	#work .float-left input {
+		position: relative;
+		 top: 1em;
+		margin-bottom: 1em;
+	}
+	
+	#testimonials-nav {
+		margin-top: 3em;
+	}
+	
+	.quote {
+		top: 12em;	
+	}
+	
+	#contact {
+		height: auto !important;	
+	}
+	
+	#contact .float-left, #contact .float-right {
+		width: 100%;
+		float: none;
+	}
+	
+	#contact .float-left  {
+		margin-bottom: 1.2em;	
+	}
+	
+	#contact input[type="submit"] {
+		margin-bottom: 4em;	
+	}
+	
+	#contact textarea {
+		width: 98%;
+		margin-bottom: 1em;	
+		height: 5em;
+	}
+	
+	.faq.project h1 {
+		width: 96%;	
+	}
+	
+	.faq p {
+		width: 96%;	
+	}
+	
+	.faq .float-right {
+		display: none;	
+	}
+	
+	.faq .twitter-after:after {
+		content: url('../img/icon-twitter@2x.png');
+		clear: left;
+		display: block;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	} 
+
+	.faq .marathon-after:after {
+		content: url('../img/marathon-fist-sm.jpg');
+		clear: left;
+		display: block;
+		float: none;
+		margin: 3em auto;
+		text-align: center;
+	} 
+   
+    .faq input {
+    	width: 100%;	
+    }
+
+	.project .workbox {
+		border: 0;	
+		padding-bottom: 3em;
+	}
+	
+	.project #project-credit {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	
+	#name h1, .faq h1  {
+		font-size: 4.6em;	
+	}
+	
+	#name h1 {
+		letter-spacing: -1px;
+	}
+	
+	.faq.project h1 {
+		font-size: 3.7em;	
+	}
+	
+	#name h2 {
+		font-size: 2.4em;	
+	}
+
+	#about-li {
+		clear: left;	
+	}
+	
+	nav + section {
+		top: 66px;	
+	}
+	
+	#about, #map, #work, #testimonials, #contact {
+    	padding-top: 66px;
+    	margin-top: -66px;	
+	}
+
+	#about, #map, #work, #testimonials {
+		padding-bottom: 132px;
+	}
+
+}
