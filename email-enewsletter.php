@@ -262,3 +262,5 @@
 <!-- footer -->	</tbody>
 </table>
 <!-- # wrapper -->
+
+<?php include('footer.php'); ?>

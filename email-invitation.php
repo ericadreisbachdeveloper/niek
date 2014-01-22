@@ -388,5 +388,4 @@ Chicago, IL 60600<br>
 </table>
 <!-- END Email -->
 
-</body>
-</html>
+<?php include('footer.php'); ?>

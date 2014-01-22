@@ -33,6 +33,3 @@
 </script> 
 
 <?php include('footer-project.php'); ?> 
- 
-</body>
-</html>

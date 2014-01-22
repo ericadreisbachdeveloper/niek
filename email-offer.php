@@ -237,3 +237,5 @@
  <tr><td width="600" height="1" align="left" valign="top" style="font-size: 1px; line-height: 1px;"><img src="img/offers/hr.gif" width="600" height="1" alt="" style="display: block;"></td></tr>
  
 </table><!-- END EMAIL -->
+
+<?php include('footer.php'); ?>

@@ -8,3 +8,5 @@
   </div><!-- .table-cell -->
  </div><!-- .table -->
 </footer>
+
+<?php include('footer.php'); ?>

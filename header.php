@@ -33,13 +33,6 @@
 <?php if (isset($bodytype) && (strpos($bodytype,'project') !== false)) { echo '
 <script type="text/javascript" src="js/project.js"> </script>' ;} ?>
 
-<!-- 'teach' IE to create and style HTML5 semantic elements -->
-<script>
- document.createElement("nav");
- document.createElement("section");
- document.createElement("footer");
-</script>
-
 </head>
 
 <body <?php if(isset($bodytype)) { echo('class="' . $bodytype. '"'); } ?> >

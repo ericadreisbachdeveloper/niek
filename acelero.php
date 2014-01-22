@@ -31,7 +31,4 @@
  });
 </script>  
  
-<?php include('footer-project.php'); ?> 
-
-</body>
-</html>
+<?php include('footer-project.php'); ?>

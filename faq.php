@@ -60,12 +60,6 @@
  </div><!-- .table.padded-cell -->
 </footer>
 
-<script type="text/javascript">
- var text = document.body.innerHTML;
- var str = text.replace(/\u201C/g, '<span class="serif">&ldquo;</span>').replace(/\u201D/g, '<span class="serif">&rdquo;</span>');  
- document.body.innerHTML = str;
-</script>
-
 <script type="text/javascript">	
  $(document).ready(function(){
   $('#nav').children('li').children('a[href^="faq"]').addClass('active'); 		
@@ -73,13 +67,7 @@
   $('.twitter-after').click(function(){
    window.location = 'http://www.twitter.com/ericadreisbach';
   });
-
-
  });
 </script>
 
-
-
-
-</body>
-</html>
+<?php include('footer.php'); ?>
