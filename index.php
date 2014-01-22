@@ -92,7 +92,7 @@
      <li>HTML email</li>
      <li>vector art</li>
      <li>SEO/SEM</li>
-     <li>working knowledge of SVN</li>
+     <li>working knowledge of SVN and Git</li>
     </ul>
     <input value="HTML EMAIL PORTFOLIO" type="button" id="htmlemail">  
     <!-- <input value="FLASH BANNERS" type="button" id="flash"> -->
