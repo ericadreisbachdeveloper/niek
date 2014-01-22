@@ -1,0 +1,4 @@
+User-agent: *
+# Exclude irrelevant directories below
+Disallow: /niek/
+Crawl-delay: 10
