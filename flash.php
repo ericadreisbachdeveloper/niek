@@ -13,5 +13,13 @@
  </div><!-- .table -->
 </section>
 
+<section>
+ <div class="table padded-cell">
+  <div class="table-cell middle">
+   <h2><a href="./">Main Portfolio <img src="img/logo-50.png" alt="main portfolio" /></a></h2>
+  </div><!-- .table-cell.middle -->
+ </div><!-- .table -->
+</section>  
+
 </body>
 </html>

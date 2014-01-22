@@ -731,8 +731,7 @@ body.faq {
 
 #project-credit {
 	float: right;
-	text-align: right;
-		
+	text-align: right;		
 }
 
 
@@ -744,4 +743,10 @@ body.faq {
 
 .flash li a {
 	font-size: 1.44em;	
+}
+
+.flash h2 img {
+	height: 1.1em;
+	margin-bottom: -.2em;
+	margin-left: .2em;
 }
