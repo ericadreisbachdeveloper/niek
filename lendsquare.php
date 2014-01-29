@@ -6,7 +6,7 @@
    <div class="text info float-left">
     <h1>LendSquare</h1>
     <h2>CSS &bull; jQuery &bull; Bootstrap</h2>
-    <p>Site design implemented with lead development team at <a href="http://www.parallactic.com" target="_blank">Parallactic&nbsp;Consulting</a>.</p>
+    <p>Built page templates for site facilitating local investment working with lead development team at <a href="http://www.parallactic.com" target="_blank">Parallactic&nbsp;Consulting</a>.</p>
     <p>Design uses <a href="http://www.getbootstrap.com/" target="_blank">Twitter Bootstrap</a> for ease in adaptibility and compatibility across platforms and browsers.</p>
     <p>Implemented adaptive mobile design.</p>
     <input value="VISIT THIS SITE" type="button" id="visit-site">
