@@ -103,6 +103,11 @@ a:hover, input:hover, .workbox a img:hover, .email-nav:hover {
 	line-height: 1;	
 }
 
+.xtralarge {
+	font-size: 8em;	
+}
+
+
 .large {
 	font-size: 5em;
 	line-height: 1;
@@ -745,8 +750,13 @@ body.faq {
 	font-size: 1.44em;	
 }
 
-.flash h2 img {
+.flash h2 img,
+.page h2 img {
 	height: 1.1em;
 	margin-bottom: -.2em;
 	margin-right: .2em;
+}
+
+.page h2 {
+	margin-bottom: 1em;	
 }
