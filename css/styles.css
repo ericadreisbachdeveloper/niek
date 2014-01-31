@@ -103,15 +103,14 @@ a:hover, input:hover, .workbox a img:hover, .email-nav:hover {
 	line-height: 1;	
 }
 
-.xtralarge {
-	font-size: 8em;	
-}
-
-
 .large {
 	font-size: 5em;
 	line-height: 1;
 	margin: 0;
+}
+
+.xtralarge {
+	font-size: 8em;	
 }
 
 .hidden {
@@ -215,6 +214,30 @@ footer {
 	position: relative;		
 }
 
+
+.serif {
+	font-family: georgia, 'times new roman', serif;	
+}
+
+.text.center {
+	width: 96%;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.text {
+	background: rgba(255,255,255,.8);
+	border: 1px solid #bbb;
+	color: #000;
+	line-height: 1.44;	
+	padding: 3%;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+
+/**** nav ***/
+
 #nav {
 	width: 100%;
 	background: #000;
@@ -273,23 +296,26 @@ footer {
 }
 
 
-/* holiday */
-
-nav + section {
-	top: 34px;	
-}
+/* sections */ 
 
 .static {
 	width: 100%;
 }
 
+.scrolling {
+	color: #fff;	
+} 
+
+
+/* name (top section) */
+
+nav + section {
+	top: 34px;	
+}
+
 #holiday {
 	background: url('../img/lenticular-clouds.jpg') no-repeat 50% 0;
 	background-size: cover;
-}
-
-.scrolling {
-	color: #fff;	
 }
 
 #name, #mobile-name {
@@ -304,9 +330,8 @@ nav + section {
 	font-size: 3em;	
 }
 
-.serif {
-	font-family: georgia, 'times new roman', serif;	
-}
+
+/*** about ***/
 
 #about {
 	background: url('../img/with-hank.jpg') no-repeat 50% 0;
@@ -314,29 +339,7 @@ nav + section {
 }
 
 
-.home .info {
-	width: 35%;
-}
-
-.home .workbox {
-	width: 45%;	
-}
-
-.text.center {
-	width: 96%;
-	margin: 0 auto;
-	text-align: center;	
-}
-
-.text {
-	background: rgba(255,255,255,.8);
-	border: 1px solid #bbb;
-	color: #000;
-	line-height: 1.44;	
-	padding: 3%;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-}
+/*** map ***/
 
 #map {
 	background: url('../img/chicago-skyview.jpg') no-repeat 50% 0;
@@ -433,9 +436,12 @@ nav + section {
 	border-color: orangered;	
 }
 
-#contact {
-	background: url('../img/red-telephone.jpg') no-repeat 50% 0;
-	background-size: cover;	
+.home .info {
+	width: 35%;
+}
+
+.home .workbox {
+	width: 45%;	
 }
 
 
@@ -487,6 +493,11 @@ nav + section {
 
 
 /* contact */
+
+#contact {
+	background: url('../img/red-telephone.jpg') no-repeat 50% 0;
+	background-size: cover;	
+}
 
 #contact #form-wrapper {
 	padding-top: 2em;	
@@ -635,7 +646,6 @@ footer a:hover {
 #email-number {
 	cursor: none;	
 	right: 1%;	
-
 }
 
 
