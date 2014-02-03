@@ -61,7 +61,7 @@ title as a kite.
 }  
 
 
-@media screen and (max-width: 728px), (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 728px), (max-height: 1024px), (-webkit-min-device-pixel-ratio: 2) {
 	/* the major jump */
 	.large {
 		font-size: 3em;	

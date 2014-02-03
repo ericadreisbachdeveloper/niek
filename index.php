@@ -262,20 +262,6 @@
    $('body,html').animate({ scrollTop: scrolltooffset }, 500);   
    return false; 
   });  
-  
-  // apply jump css if windowh is super high
-  if (windowh > 1023) {
-   $('#work').children('.table').children('.table-cell').children('.text').css('float','none');
-   $('#work').children('.table').children('.table-cell').children('.workbox').css('margin-top','1em');
-   $('#work').children('.table').children('.table-cell').children('.text').css('width','85%');
-   $('#work').children('.table').children('.table-cell').children('.text').css('margin-left','auto');
-   $('#work').children('.table').children('.table-cell').children('.text').css('margin-right','auto');   	
-   $('#work').children('.table').children('.table-cell').children('.float-left').children('ul').children('li').css('float','left');	
-   $('#work').children('.table').children('.table-cell').children('.float-left').children('input').css('position','relative');	
-   $('#work').children('.table').children('.table-cell').children('.float-left').children('input').css('top','1em');
-   $('#work').children('.table').children('.table-cell').children('.float-left').children('input').css('margin-bottom','1em');
-   $('#work').children('.table').children('.table-cell').children('.float-left').children('ul').children('li').css('margin-right','1.5em');	
-  }
     
  });	
  
@@ -301,20 +287,6 @@
   $('#about').height(slideh);
   $('#map').height(slideh);
 
-  // apply jump css if windowh is super high
-  if (windowh > 1023) {
-   $('#work').children('.table').children('.table-cell').children('.text').css('float','none');
-   $('#work').children('.table').children('.table-cell').children('.workbox').css('margin-top','1em');
-   $('#work').children('.table').children('.table-cell').children('.text').css('width','85%');
-   $('#work').children('.table').children('.table-cell').children('.text').css('margin-left','auto');
-   $('#work').children('.table').children('.table-cell').children('.text').css('margin-right','auto');   	
-   $('#work').children('.table').children('.table-cell').children('.float-left').children('ul').children('li').css('float','left');	
-   $('#work').children('.table').children('.table-cell').children('.float-left').children('input').css('position','relative');	
-   $('#work').children('.table').children('.table-cell').children('.float-left').children('input').css('top','1em');
-   $('#work').children('.table').children('.table-cell').children('.float-left').children('input').css('margin-bottom','1em');
-   $('#work').children('.table').children('.table-cell').children('.float-left').children('ul').children('li').css('margin-right','1.5em');	
-  }
-  
  });
  
  
