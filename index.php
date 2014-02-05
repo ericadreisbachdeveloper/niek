@@ -215,13 +215,6 @@
    return false;
   });
 
-  /*
-  $('#flash').click(function(){
-   window.location = 'flash';
-   return false;
-  });
-  */
-
   // fancybox (so fancy)
   $(".gallery").fancybox({
    'transitionIn' : 'fade',
