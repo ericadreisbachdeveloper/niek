@@ -42,6 +42,12 @@
     <a href="img/citysoft-home.jpg" class="gallery" rel="citysoft-gallery" data-url="citysoft.php" title="CitySoft - Redesign implemented in CSS / jQuery / ColdFusion"><img src="img/star.png" alt="San Francisco: CitySoft" id="sf" class="star" /></a>
     <a href="img/citysoft-section.jpg" class="hidden gallery" rel="citysoft-gallery" data-url="citysoft.php" title="CitySoft - Section page"></a> 
     <a href="img/citysoft-blog.jpg" class="hidden gallery" rel="citysoft-gallery" data-url="citysoft.php" title="CitySoft - Blog styling implemented in FuseTalk"></a>  
+
+    <!-- VT - Sugar Glen Farm -->    
+    <a href="img/sugarglen-hank.jpg" class="gallery" rel="sugarglen-gallery" data-url="sugarglen.php" title="Sugar Glen Farm - Wordpress / design"><img src="img/star.png" alt="Vermont: Sugar Glen Farm" id="vermont" class="star" /></a>
+    <a href="img/sugarglen-june.jpg" class="hidden gallery" rel="sugarglen-gallery" data-url="sugarglen.php" title="Sugar Glen Farm - Blog"></a> 
+    <a href="img/sugarglen-about.jpg" class="hidden gallery" rel="sugarglen-gallery" data-url="sugarglen.php" title="Sugar Glen Farm - About"></a>  
+    <a href="img/sugarglen-iphone.jpg" class="hidden gallery" rel="sugarglen-gallery" data-url="sugarglen.php" title="Sugar Glen Farm - Mobile"></a>  
  
     <!-- NYC - Acelero -->    
     <a href="img/acelero-home.jpg" class="gallery" rel="acelero-gallery" data-url="acelero.php" title="Acelero - Homepage"><img src="img/star.png" alt="NYC: Acelero" id="nyc" class="star"></a>
