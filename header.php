@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta name="description" content="<?php echo($meta); ?>" />
 
-<title><?php if(isset($subtitle)) { echo($subtitle) . ' | '; } ?>erica dreisbach | dream developer</title>	
+<title><?php if(isset($subtitle)) { echo($subtitle) . ' | '; } ?>erica dreisbach | web designer + developer</title>	
 
 <script type="text/javascript" src="js/jquery.1.4.4.min.js"> </script>
 <script type="text/javascript" src="js/spamspan.js"> </script>
